@@ -9,7 +9,7 @@ import java.util.UUID;
 @RestController
 public class SimpleInfoController {
     private final UUID uuid = UUID.randomUUID();
-    private final String v = "v1";
+    private final String v = "v2";
 
     @GetMapping("/simple_info.do")
     public String simpleInfo() throws Exception {
